@@ -28,5 +28,5 @@ $this->load->add_js([['src'=>'users.js']]);
 ```
 
 
-
+More documentation to come....
 
