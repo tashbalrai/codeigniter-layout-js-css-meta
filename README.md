@@ -18,12 +18,12 @@ To use this loader library, add the 'VB_' custom class prefix in your config.php
 
 
 #### To Change Layout
-```
+```php
 $this->load->set_layout('custom');
 ```
 
 #### To Add JS
-```
+```php
 $this->load->add_js([['src'=>'users.js']]);
 
 //Another example with position attribute
