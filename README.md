@@ -42,7 +42,7 @@ Other attributes support for js are "charset", "async" and "defer".
 
 #### To Add CSS
 ```php
-$this->load->add_js([
+$this->load->add_css([
   [
     'href' => 'custom.css'
   ],
@@ -53,5 +53,15 @@ $this->load->add_js([
 ```
 
 Other attributes support for css are "charset", "crossorigin", "hreflang", "media", "rev", "sizes" and "target".
-More documentation to come....
 
+#### To Add META
+```php
+$this->load->add_meta([
+  [
+    'name' => 'keywords',
+    'content' => 'some keywords'
+  ]
+]);
+```
+
+Other attributes support for meta are "charset", "http-equiv" and "scheme".
