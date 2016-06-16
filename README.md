@@ -65,3 +65,15 @@ $this->load->add_meta([
 ```
 
 Other attributes support for meta are "charset", "http-equiv" and "scheme".
+
+#### Helper Functions
+######get_layout()
+This helper function returns the current layout in use.
+
+######get_layout_url($which)
+This helper function returns URL relative to the layout for the argument passed. Default value of the $which is "img". Example.
+
+```php
+get_layout_url('scripts');
+// give public/<current_layout>/scripts
+```
