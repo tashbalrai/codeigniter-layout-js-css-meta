@@ -38,7 +38,20 @@ $this->load->add_js([
   ]
 ]);
 ```
+Other attributes support for js are "charset", "async" and "defer".
 
+#### To Add CSS
+```php
+$this->load->add_js([
+  [
+    'href' => 'custom.css'
+  ],
+  [
+    'href' => 'another.css'
+  ]
+]);
+```
 
+Other attributes support for css are "charset", "crossorigin", "hreflang", "media", "rev", "sizes" and "target".
 More documentation to come....
 
