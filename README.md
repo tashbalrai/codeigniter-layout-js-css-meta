@@ -25,6 +25,18 @@ $this->load->set_layout('custom');
 #### To Add JS
 ```
 $this->load->add_js([['src'=>'users.js']]);
+
+//Another example with position attribute
+$this->load->add_js([
+  [
+    'src' => 'custom.js',
+    'position' => 'foot'
+  ],
+  [
+    'src' => 'another.js',
+    'position' => 'head'
+  ]
+]);
 ```
 
 
